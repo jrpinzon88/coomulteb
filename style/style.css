@@ -1,0 +1,42 @@
+:root{
+    --primary: #393E46;
+    --secundary: #6D9886;
+    --tertiary: #F2E7D5;
+    --quaternary: #F7F7F7;
+
+}
+
+/* navbar */
+
+.navbar-brand img{
+    width: 100px;
+    height: 100%;
+
+}
+
+.navbar-top{
+    background-color: var(--primary);
+    color: var(--quaternary);
+}
+
+.nav-link{
+    color: var(--quaternary);
+}
+
+.navbar-toggler{
+    border: 1px solid var(--quaternary);
+
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 247, 247, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: var(--secundary);
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: var(--primary);
+}
