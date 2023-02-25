@@ -170,7 +170,7 @@
     color: var(--primary);
 }
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .servicios-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -185,6 +185,6 @@
         width: 100%;
     }
     
-} */
+}
 
 
