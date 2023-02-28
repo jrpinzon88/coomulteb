@@ -1,0 +1,16 @@
+:root {
+  --primary: #393e46;
+  --secundary: #6d9886;
+  --tertiary: #f2e7d5;
+  --quaternary: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
