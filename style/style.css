@@ -627,6 +627,7 @@ footer {
 
 .nuestroFooter-left {
   display: flex;
+  margin: auto 0;
   flex-direction: column;
   padding: 16px 0;
 }
@@ -726,7 +727,7 @@ footer {
     gap: 20px;
   }
   .card {
-    height: 300px;
+    height: auto;
     width: 200px;
     min-width: 300px;
     margin: 0 10px;
